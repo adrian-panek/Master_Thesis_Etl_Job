@@ -2,7 +2,7 @@
 
 This repository contains project which was used to prepare case studies for my masters thesis: "Multifaceted comparative analysis of cloud platforms in CI/CD processes using performance-cost criteria" where I compared time, performance and CO2 emissions of different sizes of Virtual Machines available in Microsoft Azure, Amazon Web Services as well as Google Cloud Platform.
 
-After running `docker compose up` command Python script will send a reqest to external REST API containing Stock Market Data, store it as Pandas dataframe and insert validated data to database. Data will contain open, close, low and high of particular day for the last 4 trading days.
+After running `docker compose up` command Python script will send a reqest to external REST API containing Stock Market Data, store it as Pandas dataframe and insert validated data to database. Data will contain open, close, low and high of particular day for the last 4 trading days. If there is no database schema created the scripts will create the schema automatically.
 
 
 ## ✨ Technologies
